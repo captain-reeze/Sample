@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="rezvi.style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="tittle">Registration Form</div>
+        <form action="#">
+        <div class="user-details">
+            <div class="input-box">
+                <span class="details">Full Name :</span>
+                <input type="text" placeholder="Enter your full name here" required>
+            </div>
+
+            <div class="input-box">
+                <span class="details">Username :</span>
+                <input type="text" placeholder="Enter your username here" required>
+            </div>
+
+            <div class="input-box">
+                <span class="details">Email :</span>
+                <input type="text" placeholder="Enter your email here" required>
+            </div>
+
+            <div class="input-box">
+                <span class="details">Phone number :</span>
+                <select name="country_code">
+                    <option value="+880">+880</option>
+                    <option value="+60">+60</option>
+                    <option value="+61">+61</option>
+                    <option value="+91">+91</option>
+                    <option value="+86">+86</option>
+                </select>                
+                <input type="phone" placeholder="Ex- 15********" required>
+            </div>
+
+            <div class="input-box">
+                <span class="details">Password :</span>
+                <input type="password" placeholder="Enter your password here" required>
+            </div>
+
+            <div class="input-box">
+                <span class="details">Confirm password :</span>
+                <input type="password" placeholder="Re-enter your password here" required>
+            </div>
+
+            <div>
+                Gender:
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+                <input type="radio" name="gender"> Others
+            </div>
+
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+
+
+        </div>
+    </form>
+    </div>
+
+</body>
+
+</html>
