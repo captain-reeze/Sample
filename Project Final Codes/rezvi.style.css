@@ -1,0 +1,107 @@
+*{
+    margin: 4px 4px;
+    padding: -3px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, aqua, white);
+
+}
+
+.container{
+    max-width: 800px;
+    width: 100%;
+    background: aliceblue;
+    padding: 25px, 30px;
+    border-radius: 5px;
+}
+
+.container .tittle {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.container .tittle::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 30px;
+    background: rebeccapurple;
+}
+
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-self: center;
+}
+.avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+form .user-details .input-box{
+    margin: 20px 0 12px 0;
+    width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box .details{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+}
+
+form .button {
+    height: 20px;
+    width: 100%;
+    margin: 35px 10px;
+
+}
+form .button input{
+    height: 50px;
+    width: 100%;
+    margin: -20px -5px;
+}
+
+form .user-details .new-input-box{
+    margin: 20px 0 12px 0;
+    width: calc(100% - 20px);
+}
+
+.user-details .new-input-box .details{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .new-input-box input{
+    height: 45px;
+    width: 100%;
+}
+
+form .new-button {
+    height: 20px;
+    width: 100%;
+    margin: 35px 10px;
+    
+}
+form .new-button input{
+    height: 50px;
+    width: 100%;
+    margin: -20px -5px;
+}
